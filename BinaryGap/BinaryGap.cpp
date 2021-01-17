@@ -2,10 +2,16 @@
 //
 
 #include <iostream>
+#include "Solution.h"
 
 int main()
 {
     std::cout << "Hello World!\n";
+
+	Solution s;
+	int      value = 2147483647;
+	std::cout << "Binary of " << value << " is " << s.solution(value) << std::endl;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
